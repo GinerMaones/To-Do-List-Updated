@@ -9,11 +9,15 @@ const userSlice = createSlice({
     initialState: userList,
     reducers:{
         addUser: (state, action) => {
-            state.push(action.payload)
+            const newUser = { ...action.payload, id: String(action.payload.id) }; // Ensure ID is a string
+            state.push(newUser);
         },
+        
         updateUser: (state, action) => {
             const { id, name, email } = action.payload;
-            const userIndex = state.findIndex(user => user.id === String(id)); // Ensure id is a string
+            
+            // Convert all IDs to the same type for consistency
+            const userIndex = state.findIndex(user => String(user.id) === String(id)); 
         
             if (userIndex !== -1) {
                 state[userIndex] = { ...state[userIndex], name, email };
@@ -21,6 +25,7 @@ const userSlice = createSlice({
                 console.log("User not found!");
             }
         },
+        
         
         
         
