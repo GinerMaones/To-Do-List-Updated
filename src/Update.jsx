@@ -10,10 +10,9 @@ function Update() {
     const navigate = useNavigate();
 
     // Convert ID based on userList's format
-    const userId = users.some(user => typeof user.id === "string") ? String(id) : Number(id);
-
-    // Find user (returns undefined if not found)
-    const existingUser = users.find(user => user.id === userId);
+    const userId = String(id); // Convert to string before comparison
+    const existingUser = users.find(user => String(user.id) === userId);
+    
 
     // State variables for form inputs
     const [unname, setName] = useState("");
@@ -79,3 +78,4 @@ function Update() {
 }
 
 export default Update;
+
