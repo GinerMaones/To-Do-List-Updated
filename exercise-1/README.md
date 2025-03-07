@@ -10,7 +10,8 @@ Task Entity
 -----------
 This entity will have the following properties:
 - `id`
-- `title`
+- `Name`
+-  `Email`
 
 Task Repository
 ---------------
@@ -19,5 +20,4 @@ This repository should be able to:
 - `removeUser()`
 - `updateUser()`
 - `getAllUser()`
-- `getUser()`
-- 
+
