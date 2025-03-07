@@ -6,9 +6,9 @@ Objectives:
 - Setup `redux`, `redux-toolkit`
     - `createStore()`
     - `combineReducers()`
-- Write `redux` actions, types, reducers
+- Write `redux` Create, Data and Update
     - `Create.jsx`
-    - `data.jsx`
+    - `Data.jsx`
     - `Update.jsx`
 - Write `redux-toolkit` actions, types, reducers
     - `store.ts`
