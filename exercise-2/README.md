@@ -12,8 +12,8 @@ Note: there will be two data repositories
 Task Repository
 ---------------
 This repository should be able to:
-- `addTask()`
-- `removeTask()`
-- `updateTask()`
-- `getAllTasks()`
-- `getTask()`
+- `addUser()`
+- `removeUser()`
+- `updateUser()`
+- `getAllUser()`
+- `getUser()`
