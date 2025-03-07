@@ -7,8 +7,8 @@ Objectives:
     - `createStore()`
     - `combineReducers()`
 - Write `redux` actions, types, reducers
-    - `task.actions.ts`
-    - `task.reducers.ts`
-    - `task.types.ts`
+    - `Create.jsx`
+    - `data.jsx`
+    - `Update.jsx`
 - Write `redux-toolkit` actions, types, reducers
     - `store.ts`
