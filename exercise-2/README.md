@@ -16,4 +16,3 @@ This repository should be able to:
 - `removeUser()`
 - `updateUser()`
 - `getAllUser()`
-- `getUser()`
