@@ -15,9 +15,9 @@ This entity will have the following properties:
 Task Repository
 ---------------
 This repository should be able to:
-- `addTask()`
-- `removeTask()`
-- `updateTask()`
-- `getAllTasks()`
-- `getTask()`
+- `addUser()`
+- `removeUser()`
+- `updateUser()`
+- `getAllUser()`
+- `getUser()`
 - 
